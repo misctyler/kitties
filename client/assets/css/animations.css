@@ -1,0 +1,19 @@
+.movingHead{
+    animation: moveHead 5s infinite;
+}
+
+
+@keyframes moveHead{
+    0% {
+        transform: rotate(0deg);
+    }
+    300% {
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
